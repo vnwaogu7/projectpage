@@ -55,7 +55,9 @@ a:active{
 .main h2 {
   text-align:center;
   color:#00c997;
-  text-shadow:1px 1px white;  
+  text-shadow:1px 1px white; 
+  font-size:30px;
+  margin-bottom:30px;   
 }
 
 p{
