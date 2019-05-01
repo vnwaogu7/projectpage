@@ -1,0 +1,173 @@
+*{
+  box-sizing:border-box;
+}
+
+.top{
+  border:2px solid white;
+  background-image:url("http://prcouncil.net/wp-content/uploads/2017/02/Grey-Gradient-Background.png");
+  margin-bottom:;
+}
+
+h1{
+  font-size:70px;
+  font-family:"brush script MT" ;
+  text-align:center;
+  color:#2528ac;
+  text-shadow:1px 1px white;
+}
+
+header nav{
+  border:2px groove white;
+  background-color:black;
+  padding-right:50px;
+}
+
+header ul{
+  font-size:20px;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+}
+
+a:link {
+  text-decoration:none;
+  color:white;
+}
+
+a:visited{
+  color:white;
+}
+
+a:hover{
+  color:#2528ac;
+}
+
+a:active{
+  color:#00c997;
+}
+
+.main{
+  margin-top:px;
+  margin-bottom:0px;
+  background-image:url("http://idenko.co.za/wp-content/uploads/2015/06/black-abstract-11-background.jpg")
+}
+
+.main h2 {
+  text-align:center;
+  color:#00c997;
+  text-shadow:1px 1px white;  
+}
+
+p{
+  color:white;
+}
+
+h3{
+  color:#00c997;
+}
+
+.vid{
+  text-align:center;
+  display:flex;
+  justify-content:space-between;
+  margin:10px 70px;
+}
+
+.dot{
+  background:black;
+  border: 3px solid white;
+  border-radius:20px;
+  width:600px;
+  height:300px;
+  padding:10px;
+  margin:0px 20px;
+  
+}
+
+.dot p{
+  text-align:left;
+  
+}
+
+.world{
+  background:black;
+  border: 3px solid white;
+  border-radius:20px;
+  width:600px;
+  height:300px;
+  padding:10px;
+  margin:0px 20px;
+}
+
+.world p{
+  text-align:left;
+  
+}
+   
+.shup {
+  display:flex;
+  margin-bottom:15px;
+
+}
+
+.shup p{
+  padding:10px;
+  font-size:18px;
+}
+
+.photo{
+  text-align:center;
+}
+  
+.text {
+  display:flex;
+  justify-content:space-between;
+  margin: 0px 150px;  
+}
+
+.text img{
+  border-radius:50px;
+}
+
+
+.page li{
+  font-size:20px;
+  margin-left:5px;
+  margin-right:5px;  
+  display:flex;
+}
+
+.icon li{
+
+  font-size:35px;
+  margin-left:5px;
+  margin-right:5px;
+  display:flex;
+  color:white;
+}
+
+footer nav{
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  border:2px groove white;
+  background-color:black;
+  padding-right:50px;
+  
+}
+
+footer ul{
+  font-size:0px;
+  color:white;
+  display:flex;
+
+}
+
+button{
+  background:black;
+  color:white;
+  font-size:16px;
+}
+
+
+
