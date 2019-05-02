@@ -1,26 +1,25 @@
 *{
-  box-sizing:border-box;
+  box-sizing:content-box;
 }
 
-body {
+body{
   margin:auto;
   width:1170px;  
-
 }
 
 .top{
   border:2px solid white;
+  background-image:url("http://prcouncil.net/wp-content/uploads/2017/02/Grey-Gradient-Background.png");
+  margin-bottom:;
 }
 
 h1{
   font-size:70px;
-  padding:;
   font-family:"brush script MT" ;
   text-align:center;
   color:#2528ac;
   text-shadow:1px 1px white;
 }
-
 
 header nav{
   border:2px groove white;
@@ -52,92 +51,95 @@ a:active{
   color:#00c997;
 }
 
-h2, h3{
-  color:#00c997;  
+.main{
+  width:1170px;
+  margin-top:px;
+  margin-bottom:0px;
+  background-image:url("http://idenko.co.za/wp-content/uploads/2015/06/black-abstract-11-background.jpg")
 }
 
+.main h2 {
+  font-size:30px;
+  margin-bottom:30px;  
+  text-align:center;
+  color:#00c997;
+  text-shadow:1px 1px white;
 
-.about{
-  background:black; 
-  margin:auto;
-  margin-top:80px;
-  border:3px solid #00c997;
-  width:700px;
 }
 
-.text{
-  padding:23px;
-  margin:2px 20px;
-  display:flex;
+p{
   color:white;
 }
 
-.text p{
+h3{
+  color:#00c997;
+}
+
+.vid{
+  text-align:center;
+  display:flex;
+  justify-content:space-between;
+  margin:10px 70px;
+}
+
+.dot{
+  background:black;
+  border: 3px solid white;
+  border-radius:20px;
+  width:600px;
+  height:280px;
+  padding:10px;
+  margin:0px 20px;
   
-  padding:20px;
+}
+
+.dot p{
+  text-align:left;
+  
+}
+
+.world{
+  background:black;
+  border: 3px solid white;
+  border-radius:20px;
+  width:600px;
+  height:280px;
+  padding:10px;
+  margin:0px 20px;
+}
+
+.world p{
+  text-align:left;
+}
+   
+.shup {
+  display:flex;
+  margin-bottom:15px;
+  width:450px;
+  height:180px;  
+
+}
+
+.shup p{
+  padding:10px;
   font-size:18px;
 }
 
-.websites{
-  background:black;
-  color:#00c997;
-  margin:auto;
-  margin-top:60px;
+.photo{
   text-align:center;
-  border:3px solid white;
-  padding:10px;
-  border-radius:50%;
-  width:200px;
 }
-
-
-.twin{
+  
+.text {
+  text-align:center;
   display:flex;
   justify-content:space-between;
-  margin-top:20px;
-  margin-bottom:20px;
+  margin: px 150px;  
 }
 
-.mediashell{
-  text-align:center;
-  
-}
-
-.media{
-  background:black;  
-  display:flex;
-  font-size:20px;
-  text-align:left;  
-  padding:20px;
-  border: 3px solid #00c997;
-  width:550px;
-  height:230px;  
-  color:white;
-  margin-left:px;
-
-
-}
-
-
-.resumeshell{
-  text-align:center;
-}
-
-.resume{
-  background:black;  
-  display:flex;
-  justify-content:space-between;
-  font-size:20px;
-  text-align:left;
-  padding:20px;  
-  padding-top:10px;
-  border:3px solid #00c997;
-  width:550px;
-  height:230px;
-  color:white;
-
-
-  
+.text img{
+  border-radius:50px;
+  margin-left:50px;
+  margin-right:50px;  
 }
 
 
@@ -149,19 +151,13 @@ h2, h3{
 }
 
 .icon li{
+
   font-size:35px;
   margin-left:5px;
   margin-right:5px;
   display:flex;
   color:white;
 }
-
-
-.bottom {
-  margin:auto;
-  display:block;
-}
-
 
 footer nav{
   color:white;
@@ -181,8 +177,13 @@ footer ul{
 }
 
 button{
-  margin-top:10px;
   background:black;
-  color:#00c997;
-  font-size:18px;
+  color:white;
+  font-size:16px;
+}
+
+
+
+.shup img{
+  border:2px solid white;
 }
