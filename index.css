@@ -1,5 +1,10 @@
 *{
-  box-sizing:border-box;
+  box-sizing:content-box;
+}
+
+body{
+  margin:auto;
+  width:1170px;  
 }
 
 .top{
@@ -47,17 +52,19 @@ a:active{
 }
 
 .main{
+  width:1170px;
   margin-top:px;
   margin-bottom:0px;
   background-image:url("http://idenko.co.za/wp-content/uploads/2015/06/black-abstract-11-background.jpg")
 }
 
 .main h2 {
+  font-size:30px;
+  margin-bottom:30px;  
   text-align:center;
   color:#00c997;
-  text-shadow:1px 1px white; 
-  font-size:30px;
-  margin-bottom:30px;   
+  text-shadow:1px 1px white;
+
 }
 
 p{
@@ -80,7 +87,7 @@ h3{
   border: 3px solid white;
   border-radius:20px;
   width:600px;
-  height:300px;
+  height:280px;
   padding:10px;
   margin:0px 20px;
   
@@ -96,19 +103,20 @@ h3{
   border: 3px solid white;
   border-radius:20px;
   width:600px;
-  height:300px;
+  height:280px;
   padding:10px;
   margin:0px 20px;
 }
 
 .world p{
   text-align:left;
-  
 }
    
 .shup {
   display:flex;
   margin-bottom:15px;
+  width:450px;
+  height:180px;  
 
 }
 
@@ -122,13 +130,16 @@ h3{
 }
   
 .text {
+  text-align:center;
   display:flex;
   justify-content:space-between;
-  margin: 0px 150px;  
+  margin: px 150px;  
 }
 
 .text img{
-  border-radius:50%;
+  border-radius:50px;
+  margin-left:50px;
+  margin-right:50px;  
 }
 
 
@@ -172,4 +183,8 @@ button{
 }
 
 
+
+.shup img{
+  border:2px solid white;
+}
 
