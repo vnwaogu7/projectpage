@@ -60,6 +60,7 @@ a:active{
 
 .main h2 {
   font-size:30px;
+  margin-top:0px;   
   margin-bottom:30px;  
   text-align:center;
   color:#00c997;
